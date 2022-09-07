@@ -1,0 +1,2828 @@
+ <!DOCTYPE html>
+ <html lang="ru">
+ <head>
+ 	<meta charset="UTF-8">
+ 	<meta name="viewport" content="width=1250">
+ 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 	<meta name="msapplication-TileColor" content="#ffffff">
+ 	<meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+ 	<meta name="theme-color" content="#ffffff">
+ 	<title>Стартовая страница</title>
+ 	<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+ 	<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+ 	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+ 	<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+ 	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+ 	<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+ 	<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+ 	<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+ 	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+ 	<link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+ 	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+ 	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+ 	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+ 	<link rel="manifest" href="img/favicon/manifest.json">
+ 	<link rel="stylesheet" href="css/main.min.css">
+ </head>
+
+ <body>
+ 	<main class="main">
+ 		<section class="admin">
+ 			<div class="admin__wrap">
+ 				<aside class="admin__aside">
+ 					<a href="#" class="admin__logo">
+ 						<img class="admin__logo-1" src="img/svg/logo-1.svg" alt="logo" />
+ 						<img class="admin__logo-2" src="img/svg/logo-2.svg" alt="logo" />
+ 					</a>
+
+ 					<div class="admin__items">
+ 						<div class="admin__item">
+ 							<div class="admin__subtitle">Рабочий процесс</div>
+ 							<a href="index.html" class="admin__link admin__link--1">
+ 								<span>Заявки</span>
+ 							</a>
+ 							<a href="user.html" class="admin__link admin__link--2">
+ 								<span>Пользователи</span>
+ 							</a>
+ 							<a href="meet.html" class="admin__link admin__link--3">
+ 								<span>Встречи</span>
+ 							</a>
+ 							<a href="comment.html" class="admin__link admin__link--4">
+ 								<span>Комментарии</span>
+ 							</a>
+ 						</div>
+
+ 						<div class="admin__item">
+ 							<div class="admin__subtitle">Администрирование</div>
+ 							<a href="units.html" class="admin__link admin__link--5">
+ 								<span>Измерения</span>
+ 							</a>
+ 							<a href="region.html" class="admin__link admin__link--6">
+ 								<span>Регионы</span>
+ 							</a>
+ 							<a href="delivery.html" class="admin__link admin__link--7">
+ 								<span>Виды доставок</span>
+ 							</a>
+ 							<a href="pay.html" class="admin__link admin__link--8 admin__link--active">
+ 								<span>Оплата</span>
+ 							</a>
+ 							<a href="category.html" class="admin__link admin__link--9">
+ 								<span>Категории</span>
+ 							</a>
+ 							<a href="location.html" class="admin__link admin__link--10">
+ 								<span>Локации офисов</span>
+ 							</a>
+ 						</div>
+ 					</div>
+
+ 					<button type="button" class="admin__collapse">
+ 						<span>Свернуть меню</span>
+ 					</button>
+ 				</aside>
+
+ 				<div class="admin__content">
+ 					<div class="admin__dropdown">
+ 						<div class="admin__user">
+ 							<div class="admin__user-header">
+ 								<img src="img/svg/user.svg" alt="icon" />
+ 								<div class="admin__user-box">
+ 									<div class="admin__user-name">Исмаилов Исмаил</div>
+ 									<div class="admin__user-info">Ресепшн</div>
+ 								</div>
+ 							</div>
+ 							<div class="admin__user-links">
+ 								<a href="#change" class="admin__user-link popup-link">Изменить пароль</a>
+ 								<a href="#" class="admin__user-link">Выход</a>
+ 							</div>
+ 						</div>
+ 					</div>
+ 					<div class="admin__top admin__top--flex">
+ 						<div class="admin__title">Виды оплаты</div>
+ 						<a href="#edit-pay" class="admin__add popup-link">Добавить вид оплаты</a>
+ 					</div>
+ 					<div class="admin__table table">
+ 						<table>
+ 							<thead>
+ 								<tr>
+ 									<th>Заголовок</th>
+ 									<th>Позиция в системе</th>
+ 									<th>Действия</th>
+ 								</tr>
+ 							</thead>
+ 							<tbody>
+ 								<tr>
+ 									<td>Предоплата</td>
+ 									<td>1</td>
+ 									<td style="width: 300px;">
+ 										<div class="table__buttons">
+ 											<a href="#edit-pay" class="table__button table__button--edit popup-link">Редактировать</a>
+ 											<a href="#delete-pay" class="table__button table__button--delete popup-link">Удалить</a>
+ 										</div>
+ 									</td>
+ 								</tr>
+ 							</tbody>
+ 						</table>
+ 					</div>
+ 					<div class="admin__footer">© Anglesey Food 1996-2022</div>
+ 				</div>
+ 			</div>
+ 		</section>
+ 	</main>
+
+ 	<div id="categories" class="popup">
+ 		<div class="popup__body">
+ 			<div class="popup__content">
+ 				<form action="#" class="popup__form">
+ 					<div class="popup__form-top">
+ 						<div class="popup__form-title">Категории для показа</div>
+ 						<div class="popup__form-group">
+ 							<input type="text" class="popup__form-input" placeholder="Поиск по категориям">
+ 							<button type="submit" class="popup__form-btn">
+ 								<img src="img/svg/search.svg" alt="icon" />
+ 							</button>
+ 						</div>
+ 					</div>
+ 	
+ 					<div class="popup__form-categories">
+ 						<div class="popup__form-items">
+ 							<div class="popup__form-item">
+ 								<div class="popup__form-abc">А</div>
+ 								<div class="popup__form-checkbox">
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Авточистка</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Аксессуары для дома</i>
+ 									</label>
+ 								</div>
+ 							</div>
+ 	
+ 							<div class="popup__form-item">
+ 								<div class="popup__form-abc">Б</div>
+ 								<div class="popup__form-checkbox">
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Банные принадлежности</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Брынза</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Бумажный офис</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Бытовая техника</i>
+ 									</label>
+ 								</div>
+ 							</div>
+ 	
+ 							<div class="popup__form-item">
+ 								<div class="popup__form-abc">В</div>
+ 								<div class="popup__form-checkbox">
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Вода питьевая</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Восточные сладости, сухофрукты</i>
+ 									</label>
+ 								</div>
+ 							</div>
+ 	
+ 							<div class="popup__form-item">
+ 								<div class="popup__form-abc">Г</div>
+ 								<div class="popup__form-checkbox">
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Готовая еда</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Губки, щетки, салфетки для уборки</i>
+ 									</label>
+ 								</div>
+ 							</div>
+ 	
+ 							<div class="popup__form-item">
+ 								<div class="popup__form-abc">Д</div>
+ 								<div class="popup__form-checkbox">
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Дача, сад, прочая кухня</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Дезодаранты и гели для душа</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Детские товары</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Детское питание</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Домашний декор</i>
+ 									</label>
+ 								</div>
+ 							</div>
+ 	
+ 							<div class="popup__form-item">
+ 								<div class="popup__form-abc">Ж</div>
+ 								<div class="popup__form-checkbox">
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Жевательные резинки</i>
+ 									</label>
+ 								</div>
+ 							</div>
+ 	
+ 							<div class="popup__form-item">
+ 								<div class="popup__form-abc">З</div>
+ 								<div class="popup__form-checkbox">
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Зажигалки</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Замороженные полуфабрикаты</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Зонтики</i>
+ 									</label>
+ 								</div>
+ 							</div>
+ 	
+ 							<div class="popup__form-item">
+ 								<div class="popup__form-abc">И</div>
+ 								<div class="popup__form-checkbox">
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Икра</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Йогурты</i>
+ 									</label>
+ 								</div>
+ 							</div>
+ 	
+ 							<div class="popup__form-item">
+ 								<div class="popup__form-abc">К</div>
+ 								<div class="popup__form-checkbox">
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Какао</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Канцелярские товары</i>
+ 									</label>
+ 	
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Картофельные пюре, гарниры</i>
+ 									</label>
+ 	
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Каши, сухие завтраки</i>
+ 									</label>
+ 	
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Кисломолочные продукты</i>
+ 									</label>
+ 	
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Колбасы</i>
+ 									</label>
+ 	
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Компьютерные аксессуары</i>
+ 									</label>
+ 	
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Корейские салаты</i>
+ 									</label>
+ 	
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Кофе</i>
+ 									</label>
+ 	
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Краски для волос</i>
+ 									</label>
+ 	
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Крупы в упаковке и макаронные изделия</i>
+ 									</label>
+ 	
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Кухонный инвентарь</i>
+ 									</label>
+ 								</div>
+ 							</div>
+ 	
+ 							<div class="popup__form-item">
+ 								<div class="popup__form-abc">М</div>
+ 								<div class="popup__form-checkbox">
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Маргарин</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Масла растительные</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Масло</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Мед, джемы и варенья</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Молоко</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Молоко и Молочные напитки</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Молочные десерты</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Молочные консервы</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Морепродукты</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Мороженное</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Мука</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Мучные кондитерские изделия</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Мыло косметическое и мыло жидкое</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Мясные консервы</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Мясо животных</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Мясо птицы</i>
+ 									</label>
+ 								</div>
+ 							</div>
+ 	
+ 							<div class="popup__form-item">
+ 								<div class="popup__form-abc">О</div>
+ 								<div class="popup__form-checkbox">
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Обувь</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Овощи</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Овощные(маринады) и фруктовые консервы</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Организация и хранение документов</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Организация и хранение документов</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Организация рабочего места</i>
+ 									</label>
+ 								</div>
+ 							</div>
+ 						</div>
+ 	
+ 						<div class="popup__form-items">
+ 							<div class="popup__form-item">
+ 								<div class="popup__form-abc">П</div>
+ 								<div class="popup__form-checkbox">
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Пакеты</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Письменные принадлежности</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Подгузники для взрослых</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Полуфабрикаты быстрого приготовления</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Предметы домашнего обихода</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Предметы домашнего обихода(спички)</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Презервативы</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Прохладительные напитки</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Прочая бакалея</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Прочие замороженные полуфабрикаты</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Прочие снеки</i>
+ 									</label>
+ 								</div>
+ 							</div>
+ 	
+ 							<div class="popup__form-item">
+ 								<div class="popup__form-abc">Р</div>
+ 								<div class="popup__form-checkbox">
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Рыбные консервы</i>
+ 									</label>
+ 								</div>
+ 							</div>
+ 	
+ 							<div class="popup__form-item">
+ 								<div class="popup__form-abc">С</div>
+ 								<div class="popup__form-checkbox">
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Салаты готовые, соленья</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Сахар</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Свежая рыба</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Сигареты</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Сметана</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Соки, нектары</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Соусы</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Специи</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Средства борьбы с насекомыми</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Средства детской гигиены</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Средства для бритья</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Средства для туалета, освежители</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Средства для укладки волос</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Средства для ухода за полостью рта</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Средства женской гигиены</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Средства по уходу за лицом</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Средства по уходу за руками</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Средства по уходу за ногами</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Средства по уходу за телом</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Средства ухода за обувью</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Стиральные порошки и кондиционеры</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Столовая и кухня</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Сулугуни</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Сухарики</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Сухие сливки</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Сушеные морепродукты фасованные</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Сыры</i>
+ 									</label>
+ 								</div>
+ 							</div>
+ 	
+ 							<div class="popup__form-item">
+ 								<div class="popup__form-abc">Т</div>
+ 								<div class="popup__form-checkbox">
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Творожные продукты</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Текстиль</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Товары для диабетиков</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Товары для презентаций</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Товары и корма для животных</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Торты и пирожные</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Туалетная бумага, салфетки, полотенца</i>
+ 									</label>
+ 	
+ 								</div>
+ 							</div>
+ 	
+ 							<div class="popup__form-item">
+ 								<div class="popup__form-abc">Ф</div>
+ 								<div class="popup__form-checkbox">
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Фольга, бумага для выпечки</i>
+ 									</label>
+ 								</div>
+ 							</div>
+ 	
+ 							<div class="popup__form-item">
+ 								<div class="popup__form-abc">Х</div>
+ 								<div class="popup__form-checkbox">
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Хлеб</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Хлебопродукты</i>
+ 									</label>
+ 								</div>
+ 							</div>
+ 	
+ 							<div class="popup__form-item">
+ 								<div class="popup__form-abc">Ч</div>
+ 								<div class="popup__form-checkbox">
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Чай</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Чипсы</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Чистящие и моющие средства</i>
+ 									</label>
+ 								</div>
+ 							</div>
+ 	
+ 							<div class="popup__form-item">
+ 								<div class="popup__form-abc">Ш</div>
+ 								<div class="popup__form-checkbox">
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Шампуни и бальзамы</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Шоколадно-конфетные изделия</i>
+ 									</label>
+ 								</div>
+ 							</div>
+ 	
+ 							<div class="popup__form-item">
+ 								<div class="popup__form-abc">Э</div>
+ 								<div class="popup__form-checkbox">
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Электротовары</i>
+ 									</label>
+ 								</div>
+ 							</div>
+ 						</div>
+ 					</div>
+ 	
+ 					<div class="popup__form-buttons">
+ 						<button type="reset" class="popup__form-button popup__form-button--reset">Сбросить фильтр</button>
+ 						<button type="submit" class="popup__form-button popup__form-button--apply">Применить фильтр</button>
+ 					</div>
+ 				</form>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	
+ 	<div id="change" class="popup">
+ 		<div class="popup__body">
+ 			<div class="popup__content popup__content--change">
+ 				<form action="#" class="popup__form">
+ 					<div class="popup__form-title">Изменение пароля</div>
+ 					<div class="popup__form-desc">
+ 						Вы можете изменить свой пароль, если помните старый. В противном случаи, обратитесь
+ 						<a href="#">к администратору сервиса</a>
+ 					</div>
+ 	
+ 					<div class="popup__form-password">
+ 						<input type="password" class="popup__form-input" placeholder="Старый пароль">
+ 						<input type="password" class="popup__form-input" placeholder="Новый пароль">
+ 						<input type="password" class="popup__form-input" placeholder="Подвердите новый пароль">
+ 					</div>
+ 	
+ 	
+ 					<div class="popup__form-buttons popup__form-buttons--change">
+ 						<button type="button" class="popup__form-button popup__form-button--cancel close-popup">Отменить</button>
+ 						<button type="submit" class="popup__form-button popup__form-button--apply">Сохранить изменения</button>
+ 					</div>
+ 				</form>
+ 	
+ 			</div>
+ 		</div>
+ 	</div>
+ 	
+ 	<div id="request" class="popup">
+ 		<div class="popup__body">
+ 			<div class="popup__content popup__content--request">
+ 				<div class="popup__top">
+ 					<div class="popup__top-left">
+ 						<div class="popup__top-text">Заявка от 14 янв 2022 14:45</div>
+ 						<div class="popup__top-status">В обработке</div>
+ 					</div>
+ 					<button type="submit" class="close-popup">
+ 						<img src="img/svg/close.svg" alt="icon" />
+ 					</button>
+ 				</div>
+ 				<form action="#" class="popup__product-card product-card product-card--2">
+ 					<div class="product-card__left">
+ 						<div class="product-card__item">
+ 							<div class="product-card__subtitle">Карточка организации</div>
+ 							<div class="product-card__grid product-card__grid--3">
+ 								<div class="product-card__group product-card__group--company">
+ 									<label for="org" class="product-card__label">Наименование организации</label>
+ 									<input id="org" type="text" class="input product-card__input">
+ 								</div>
+ 								<div class="product-card__group">
+ 									<label for="con" class="product-card__label">Контактное лицо</label>
+ 									<input id="con" type="text" class="input product-card__input w-210">
+ 								</div>
+ 								<div class="product-card__group">
+ 									<label for="inn" class="product-card__label">ИНН</label>
+ 									<input id="inn" type="text" class="input product-card__input w-180">
+ 								</div>
+ 								<div class="product-card__group">
+ 									<label class="product-card__label">Гувохнома</label>
+ 									<div class="product-card__holder">
+ 										<a href="#" class="product-card__look">Посмотреть</a>
+ 										<a href="#" class="product-card__download">Скачать</a>
+ 									</div>
+ 								</div>
+ 								<div class="product-card__group">
+ 									<label for="email" class="product-card__label">Email</label>
+ 									<input id="email" type="email" class="input product-card__input w-210">
+ 								</div>
+ 								<div class="product-card__group">
+ 									<label for="tel" class="product-card__label">Номер телефона</label>
+ 									<input id="tel" type="tel" class="input product-card__input w-180">
+ 								</div>
+ 							</div>
+ 						</div>
+ 	
+ 						<div class="product-card__item">
+ 							<div class="product-card__flex">
+ 								<div class="product-card__col">
+ 									<a class="product-card__img" data-fancybox="product-card" href="img/image-1.png">
+ 										<img src="img/image-1.png" alt="image" />
+ 									</a>
+ 									<div class="product-card__tools">
+ 										<a href="img/image-1.png" data-fancybox="product-card-zoom">
+ 											<img src="img/svg/zoom.svg" alt="icon" />
+ 										</a>
+ 										<a href="#">
+ 											<img src="img/svg/download.svg" alt="icon" />
+ 										</a>
+ 										<a href="#">
+ 											<img src="img/svg/share.svg" alt="icon" />
+ 										</a>
+ 									</div>
+ 								</div>
+ 	
+ 								<div class="product-card__col">
+ 									<div class="product-card__subtitle">Сведения о товаре</div>
+ 									<div class="product-card__grid product-card__grid--2">
+ 										<div class="product-card__group">
+ 											<label class="product-card__label">Категория товара</label>
+ 											<div class="product-card__select">
+ 												<select name="form[]" class="w-210">
+ 													<option value="0" selected="selected" disabled>Выбор</option>
+ 													<option value="1">Пункт №1</option>
+ 													<option value="2">Пункт №2</option>
+ 													<option value="3">Пункт №3</option>
+ 													<option value="4">Пункт №4</option>
+ 												</select>
+ 											</div>
+ 										</div>
+ 										<div class="product-card__group">
+ 											<label for="pr" class="product-card__label">Наименование товара</label>
+ 											<input id="pr" type="text" class="input product-card__input w-210">
+ 										</div>
+ 										<div class="product-card__group">
+ 											<label for="brand" class="product-card__label">Бренд</label>
+ 											<input id="brand" type="text" class="input product-card__input w-210">
+ 										</div>
+ 										<div class="product-card__group">
+ 											<label for="gr" class="product-card__label">Граммаж</label>
+ 											<input id="gr" type="text" class="input product-card__input w-210">
+ 										</div>
+ 										<div class="product-card__group">
+ 											<label for="price" class="product-card__label">Цена товара</label>
+ 											<div class="product-card__piece">
+ 												<input id="price" type="text" class="input product-card__input">
+ 												<p>сум за шт</p>
+ 											</div>
+ 										</div>
+ 										<div class="product-card__group">
+ 											<label class="product-card__label">Начало производства</label>
+ 											<a href="#" class="product-card__calendar">
+ 												<span>Февраль 2022</span>
+ 											</a>
+ 										</div>
+ 									</div>
+ 								</div>
+ 							</div>
+ 	
+ 							<div class="product-card__inner">
+ 								<div class="product-card__subtitle">Дополнительная информация</div>
+ 								<div class="product-card__grid product-card__grid--4">
+ 									<div class="product-card__group product-card__group--market">
+ 										<label for="mar" class="product-card__label">Доля рынка</label>
+ 										<input id="mar" type="text" class="input product-card__input w-125">
+ 									</div>
+ 									<div class="product-card__group">
+ 										<label for="barcode" class="product-card__label">Штрих-код</label>
+ 										<input id="barcode" type="text" class="input product-card__input w-180">
+ 									</div>
+ 									<div class="product-card__group">
+ 										<label class="product-card__label">Документы</label>
+ 										<p class="product-card__info">Отсуствуют</p>
+ 									</div>
+ 									<div class="product-card__group">
+ 										<label class="product-card__label">Кп</label>
+ 										<p class="product-card__info">Не является</p>
+ 									</div>
+ 								</div>
+ 							</div>
+ 	
+ 							<div class="product-card__inner">
+ 								<div class="product-card__subtitle">География</div>
+ 								<div class="product-card__grid product-card__grid--2">
+ 									<div class="product-card__group">
+ 										<label class="product-card__label">Регионы, в которых представлен товар</label>
+ 										<div class="product-card__geography">
+ 											<div class="product-card__geography-item">
+ 												Ташкент
+ 												<button type="button" class="product-card__geography-btn">
+ 													<img src="img/svg/close-2.svg" alt="icon" />
+ 												</button>
+ 											</div>
+ 											<div class="product-card__geography-item">
+ 												Самарканд
+ 												<button type="button" class="product-card__geography-btn">
+ 													<img src="img/svg/close-2.svg" alt="icon" />
+ 												</button>
+ 											</div>
+ 	
+ 											<a href="#geo-add" class="product-card__geography-add popup-link">Добавить</a>
+ 										</div>
+ 									</div>
+ 									<div class="product-card__group">
+ 										<label class="product-card__label">Где представлены торговые точки</label>
+ 										<div class="product-card__geography">
+ 											<div class="product-card__geography-item">
+ 												Базары
+ 												<button type="button" class="product-card__geography-btn">
+ 													<img src="img/svg/close-2.svg" alt="icon" />
+ 												</button>
+ 											</div>
+ 											<div class="product-card__geography-item">
+ 												Магазины
+ 												<button type="button" class="product-card__geography-btn">
+ 													<img src="img/svg/close-2.svg" alt="icon" />
+ 												</button>
+ 											</div>
+ 											<div class="product-card__geography-item">
+ 												Брынза
+ 												<button type="button" class="product-card__geography-btn">
+ 													<img src="img/svg/close-2.svg" alt="icon" />
+ 												</button>
+ 											</div>
+ 											<a href="#geo-add" class="product-card__geography-add popup-link">Добавить</a>
+ 										</div>
+ 									</div>
+ 								</div>
+ 							</div>
+ 	
+ 							<div class="product-card__inner">
+ 								<div class="product-card__subtitle">Поставки</div>
+ 								<div class="product-card__grid product-card__grid--2">
+ 									<div class="product-card__group">
+ 										<label class="product-card__label">Условия оплаты</label>
+ 										<div class="product-card__select">
+ 											<select name="form[]">
+ 												<option value="0" selected="selected" disabled>Выбор</option>
+ 												<option value="1">Пункт №1</option>
+ 												<option value="2">Пункт №2</option>
+ 												<option value="3">Пункт №3</option>
+ 												<option value="4">Пункт №4</option>
+ 											</select>
+ 										</div>
+ 									</div>
+ 									<div class="product-card__group">
+ 										<label class="product-card__label">Условия поставки</label>
+ 										<div class="product-card__select">
+ 											<select name="form[]">
+ 												<option value="0" selected="selected" disabled>Выбор</option>
+ 												<option value="1">Пункт №1</option>
+ 												<option value="2">Пункт №2</option>
+ 												<option value="3">Пункт №3</option>
+ 												<option value="4">Пункт №4</option>
+ 											</select>
+ 										</div>
+ 									</div>
+ 									<div class="product-card__group product-card__group--notes">
+ 										<label class="product-card__label">Особые примечания</label>
+ 										<p class="product-card__text">
+ 											Здравствуйте, наша компания занимается поставками капсульного кофе. Мы хотели бы продавать наши
+ 											капсулы через ваши супермаркеты. Поначалу хотели бы разместить капсульное кофе неспрессо формата
+ 											IlCaffeItaliano итальянского производства
+ 										</p>
+ 									</div>
+ 								</div>
+ 							</div>
+ 						</div>
+ 					</div>
+ 					<div class="product-card__right">
+ 						<div class="product-card__sticky">
+ 							<div class="product-card__item">
+ 								<div class="product-card__subtitle">Комментарии</div>
+ 	
+ 								<div class="product-card__comments">
+ 									<div class="product-card__comment">
+ 										<div class="product-card__comment-name">Пользователь</div>
+ 										<div class="product-card__comment-category">Заявка создана</div>
+ 										<div class="product-card__comment-date">1 д. 3 час. 19 мин. назад</div>
+ 									</div>
+ 									<div class="product-card__comment">
+ 										<div class="product-card__comment-name">n.ganiyev</div>
+ 										<div class="product-card__comment-category">
+ 											Категория изменена:
+ 											<p>Кофе → Полуфабрикаты</p>
+ 										</div>
+ 										<div class="product-card__comment-date">1 д. 3 час. 19 мин. назад</div>
+ 									</div>
+ 									<div class="product-card__comment">
+ 										<div class="product-card__comment-name">Низамов Камолиддин</div>
+ 										<div class="product-card__comment-approved">Одобрена</div>
+ 										<div class="product-card__comment-text">ЗАЯВКА ПОЛНОСТЬЮ ОДОБРЕНА ОЖИДАЕТСЯ НАЗНАЧЕНИЕ ВСТРЕЧИ</div>
+ 										<div class="product-card__comment-date">1 д. 3 час. 19 мин. назад</div>
+ 									</div>
+ 	
+ 									<div class="product-card__comment product-card__comment--answer">
+ 										<div class="product-card__comment-name">Ресепшн</div>
+ 										<div class="product-card__comment-category">Рассмотрим предложение.</div>
+ 										<div class="product-card__comment-date">1 д. 3 час. 19 мин. назад</div>
+ 									</div>
+ 								</div>
+ 								<div class="product-card__answers">
+ 									<input type="text" placeholder="Введите или выберите подходящий" class="product-card__answers-input">
+ 									<div class="product-card__answers-radios">
+ 										<label class="product-card__answers-radio">
+ 											<input type="radio" name="answers">
+ 											<span>Надо подумать</span>
+ 										</label>
+ 										<label class="product-card__answers-radio">
+ 											<input type="radio" name="answers">
+ 											<span>Передам менеджеру</span>
+ 										</label>
+ 										<label class="product-card__answers-radio">
+ 											<input type="radio" name="answers">
+ 											<span>Заявка принята</span>
+ 										</label>
+ 										<label class="product-card__answers-radio">
+ 											<input type="radio" name="answers">
+ 											<span>Отказ в приеме</span>
+ 										</label>
+ 									</div>
+ 								</div>
+ 							</div>
+ 	
+ 							<div class="product-card__buttons">
+ 								<button type="submit" class="product-card__button product-card__button--approve">Одобрить</button>
+ 								<button type="button" class="product-card__button product-card__button--refuse">Отказать</button>
+ 							</div>
+ 						</div>
+ 					</div>
+ 				</form>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	
+ 	<div id="edit" class="popup">
+ 		<div class="popup__body">
+ 			<div class="popup__content popup__content--edit">
+ 				<form action="#" class="popup__form">
+ 					<div class="popup__form-title">Шаблонный комментарий</div>
+ 					<div class="popup__form-desc">
+ 						Впишите заголовок и текст комментария для того, чтобы использовать его в дальнейшем как шаблонный
+ 					</div>
+ 	
+ 					<div class="popup__form-edit">
+ 						<div class="popup__form-select">
+ 							<select name="form[]">
+ 								<option value="1" selected="selected">Пункт №1</option>
+ 								<option value="2">Пункт №2</option>
+ 								<option value="3">Пункт №3</option>
+ 								<option value="4">Пункт №4</option>
+ 							</select>
+ 						</div>
+ 						<input type="text" placeholder="Заголовок комментария" class="input">
+ 						<div class="popup__form-comments">
+ 							<textarea placeholder="Впишите текст комментария..." minlength="10" maxlength="140"></textarea>
+ 							<p>от 10 до 140 символов</p>
+ 						</div>
+ 					</div>
+ 	
+ 					<div class="popup__form-buttons popup__form-buttons--change">
+ 						<button type="button" class="popup__form-button popup__form-button--cancel close-popup">Отменить</button>
+ 						<button type="submit" class="popup__form-button popup__form-button--apply">Сохранить</button>
+ 					</div>
+ 				</form>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	
+ 	<div id="delete" class="popup">
+ 		<div class="popup__body">
+ 			<div class="popup__content popup__content--delete">
+ 				<form action="#" class="popup__form">
+ 					<div class="popup__form-title">Вы действительно хотите удалить комментарий?</div>
+ 					<div class="popup__form-desc">Данное действие нельзя отменить</div>
+ 	
+ 					<div class="popup__form-buttons popup__form-buttons--change">
+ 						<button type="button" class="popup__form-button popup__form-button--cancel close-popup">Отменить</button>
+ 						<button type="submit" class="popup__form-button popup__form-button--apply">Удалить</button>
+ 					</div>
+ 				</form>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	
+ 	<div id="edit-units" class="popup">
+ 		<div class="popup__body">
+ 			<div class="popup__content popup__content--edit-units">
+ 				<form action="#" class="popup__form">
+ 					<div class="popup__form-title">Добавление единицы измерения</div>
+ 					<div class="popup__form-desc">
+ 						Введите наименование единицы измерения, которое будет отображаться у пользователей, и ее позицию в системе -
+ 						чем выше ранг, тем выше в списке данная единица измерения
+ 					</div>
+ 	
+ 					<div class="popup__form-holder">
+ 						<input type="text" class="input" placeholder="Наименование единицы измерения">
+ 						<div class="popup__form-box">
+ 							<div class="popup__form-text">Позиция в системе</div>
+ 							<div class="popup__form-select w-210">
+ 								<select name="form[]">
+ 									<option value="1" selected="selected">1</option>
+ 									<option value="2">2</option>
+ 									<option value="3">3</option>
+ 									<option value="4">4</option>
+ 								</select>
+ 							</div>
+ 						</div>
+ 					</div>
+ 	
+ 					<div class="popup__form-buttons popup__form-buttons--change">
+ 						<button type="button" class="popup__form-button popup__form-button--cancel close-popup">Отменить</button>
+ 						<button type="submit" class="popup__form-button popup__form-button--apply">Подтвердить добавление</button>
+ 					</div>
+ 				</form>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	
+ 	<div id="delete-units" class="popup">
+ 		<div class="popup__body">
+ 			<div class="popup__content popup__content--delete">
+ 				<form action="#" class="popup__form">
+ 					<div class="popup__form-title">Вы действительно хотите удалить единицу <span>Кг</span> ?</div>
+ 					<div class="popup__form-desc">Данное действие нельзя отменить</div>
+ 	
+ 					<div class="popup__form-buttons popup__form-buttons--change">
+ 						<button type="button" class="popup__form-button popup__form-button--cancel close-popup">Отменить</button>
+ 						<button type="submit" class="popup__form-button popup__form-button--apply">Удалить</button>
+ 					</div>
+ 				</form>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	
+ 	<div id="edit-region" class="popup">
+ 		<div class="popup__body">
+ 			<div class="popup__content popup__content--edit-units">
+ 				<form action="#" class="popup__form">
+ 					<div class="popup__form-title">Добавление региона</div>
+ 					<div class="popup__form-desc">
+ 						Введите наименование района и выберите область,к которой она относится
+ 					</div>
+ 	
+ 					<div class="popup__form-holder">
+ 						<input type="text" class="input" placeholder="Наименование района">
+ 						<div class="popup__form-box">
+ 							<div class="popup__form-text">Область</div>
+ 							<div class="popup__form-select">
+ 								<select name="form[]">
+ 									<option value="1" selected="selected">Ташкентская область</option>
+ 									<option value="2">Ташкентская область</option>
+ 									<option value="3">Ташкентская область</option>
+ 									<option value="4">Ташкентская область</option>
+ 								</select>
+ 							</div>
+ 						</div>
+ 					</div>
+ 	
+ 					<div class="popup__form-buttons popup__form-buttons--change">
+ 						<button type="button" class="popup__form-button popup__form-button--cancel close-popup">Отменить</button>
+ 						<button type="submit" class="popup__form-button popup__form-button--apply">Подтвердить добавление</button>
+ 					</div>
+ 				</form>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	
+ 	<div id="delete-region" class="popup">
+ 		<div class="popup__body">
+ 			<div class="popup__content popup__content--delete">
+ 				<form action="#" class="popup__form">
+ 					<div class="popup__form-title">Вы действительно хотите удалить <span>Мирзо Улугбекский район</span> ?</div>
+ 					<div class="popup__form-desc">Данное действие нельзя отменить</div>
+ 	
+ 					<div class="popup__form-buttons popup__form-buttons--change">
+ 						<button type="button" class="popup__form-button popup__form-button--cancel close-popup">Отменить</button>
+ 						<button type="submit" class="popup__form-button popup__form-button--apply">Удалить</button>
+ 					</div>
+ 				</form>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	
+ 	<div id="edit-delivery" class="popup">
+ 		<div class="popup__body">
+ 			<div class="popup__content popup__content--edit-units">
+ 				<form action="#" class="popup__form">
+ 					<div class="popup__form-title">Добавление вида доставки</div>
+ 					<div class="popup__form-desc">
+ 						Введите наименование вида доставки, которое будет отображаться у пользователей, и ее позицию в системе - чем
+ 						выше ранг, тем выше в списке данный вид доставки
+ 					</div>
+ 	
+ 					<div class="popup__form-holder">
+ 						<input type="text" class="input" placeholder="Наименование вида доставки">
+ 						<div class="popup__form-box">
+ 							<div class="popup__form-text">Позиция в системе</div>
+ 							<div class="popup__form-select w-210">
+ 								<select name="form[]">
+ 									<option value="1" selected="selected">1</option>
+ 									<option value="2">2</option>
+ 									<option value="3">3</option>
+ 									<option value="4">4</option>
+ 								</select>
+ 							</div>
+ 						</div>
+ 					</div>
+ 	
+ 					<div class="popup__form-buttons popup__form-buttons--change">
+ 						<button type="button" class="popup__form-button popup__form-button--cancel close-popup">Отменить</button>
+ 						<button type="submit" class="popup__form-button popup__form-button--apply">Подтвердить добавление</button>
+ 					</div>
+ 				</form>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	
+ 	<div id="delete-delivery" class="popup">
+ 		<div class="popup__body">
+ 			<div class="popup__content popup__content--delete">
+ 				<form action="#" class="popup__form">
+ 					<div class="popup__form-title">Вы действительно хотите удалить доставку <span>Самовывоз</span> ?</div>
+ 					<div class="popup__form-desc">Данное действие нельзя отменить</div>
+ 	
+ 					<div class="popup__form-buttons popup__form-buttons--change">
+ 						<button type="button" class="popup__form-button popup__form-button--cancel close-popup">Отменить</button>
+ 						<button type="submit" class="popup__form-button popup__form-button--apply">Удалить</button>
+ 					</div>
+ 				</form>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	
+ 	<div id="edit-pay" class="popup">
+ 		<div class="popup__body">
+ 			<div class="popup__content popup__content--edit-units">
+ 				<form action="#" class="popup__form">
+ 					<div class="popup__form-title">Добавление вида оплаты</div>
+ 					<div class="popup__form-desc">
+ 						Введите наименование вида оплаты, которое будет отображаться у пользователей, и ее позицию в системе - чем
+ 						выше ранг, тем выше в списке данный вид оплаты
+ 					</div>
+ 	
+ 					<div class="popup__form-holder">
+ 						<input type="text" class="input" placeholder="Наименование вида доставки">
+ 						<div class="popup__form-box">
+ 							<div class="popup__form-text">Позиция в системе</div>
+ 							<div class="popup__form-select w-210">
+ 								<select name="form[]">
+ 									<option value="1" selected="selected">1</option>
+ 									<option value="2">2</option>
+ 									<option value="3">3</option>
+ 									<option value="4">4</option>
+ 								</select>
+ 							</div>
+ 						</div>
+ 					</div>
+ 	
+ 					<div class="popup__form-buttons popup__form-buttons--change">
+ 						<button type="button" class="popup__form-button popup__form-button--cancel close-popup">Отменить</button>
+ 						<button type="submit" class="popup__form-button popup__form-button--apply">Подтвердить добавление</button>
+ 					</div>
+ 				</form>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	
+ 	<div id="delete-pay" class="popup">
+ 		<div class="popup__body">
+ 			<div class="popup__content popup__content--delete">
+ 				<form action="#" class="popup__form">
+ 					<div class="popup__form-title">Вы действительно хотите удалить доставку <span>Предоплата</span> ?</div>
+ 					<div class="popup__form-desc">Данное действие нельзя отменить</div>
+ 	
+ 					<div class="popup__form-buttons popup__form-buttons--change">
+ 						<button type="button" class="popup__form-button popup__form-button--cancel close-popup">Отменить</button>
+ 						<button type="submit" class="popup__form-button popup__form-button--apply">Удалить</button>
+ 					</div>
+ 				</form>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	
+ 	<div id="edit-category" class="popup">
+ 		<div class="popup__body">
+ 			<div class="popup__content popup__content--edit-units">
+ 				<form action="#" class="popup__form">
+ 					<div class="popup__form-title">Добавить категорию</div>
+ 					<div class="popup__form-desc">
+ 						Введите наименование категории, которое будет отображаться у пользователей, и ее позицию в системе - чем выше
+ 						ранг, тем выше в списке данный вид оплаты
+ 					</div>
+ 	
+ 					<div class="popup__form-holder">
+ 						<input type="text" class="input" placeholder="Наименование вида доставки">
+ 						<div class="popup__form-box">
+ 							<div class="popup__form-text">Позиция в системе</div>
+ 							<div class="popup__form-select w-210">
+ 								<select name="form[]">
+ 									<option value="1" selected="selected">1</option>
+ 									<option value="2">2</option>
+ 									<option value="3">3</option>
+ 									<option value="4">4</option>
+ 								</select>
+ 							</div>
+ 						</div>
+ 					</div>
+ 	
+ 					<div class="popup__form-buttons popup__form-buttons--change">
+ 						<button type="button" class="popup__form-button popup__form-button--cancel close-popup">Отменить</button>
+ 						<button type="submit" class="popup__form-button popup__form-button--apply">Подтвердить добавление</button>
+ 					</div>
+ 				</form>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	
+ 	<div id="delete-category" class="popup">
+ 		<div class="popup__body">
+ 			<div class="popup__content popup__content--delete">
+ 				<form action="#" class="popup__form">
+ 					<div class="popup__form-title">Вы действительно хотите удалить оплату <span>Cоки и нектары</span> ?</div>
+ 					<div class="popup__form-desc">Данное действие нельзя отменить</div>
+ 	
+ 					<div class="popup__form-buttons popup__form-buttons--change">
+ 						<button type="button" class="popup__form-button popup__form-button--cancel close-popup">Отменить</button>
+ 						<button type="submit" class="popup__form-button popup__form-button--apply">Удалить</button>
+ 					</div>
+ 				</form>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	
+ 	<div id="location" class="popup">
+ 		<div class="popup__body">
+ 			<div class="popup__content popup__content--edit">
+ 				<form action="#" class="popup__form">
+ 					<div class="popup__form-title">Локация офиса</div>
+ 					<div class="popup__form-desc">
+ 						Впишите наименование офиса, которое будет отображаться в списке, его текстовый адрес и ссылку на локацию офиса
+ 						на карте, чтобы пользователи могли быстро найти его
+ 					</div>
+ 	
+ 					<div class="popup__form-edit">
+ 						<input type="text" placeholder="Наименование офиса" class="input">
+ 						<div class="popup__form-comments">
+ 							<textarea placeholder="Адрес офиса"></textarea>
+ 							<textarea placeholder="Ссылка с локацией офиса на карте"></textarea>
+ 						</div>
+ 					</div>
+ 	
+ 					<div class="popup__form-buttons popup__form-buttons--change">
+ 						<button type="button" class="popup__form-button popup__form-button--cancel close-popup">Отменить</button>
+ 						<button type="submit" class="popup__form-button popup__form-button--apply">Сохранить</button>
+ 					</div>
+ 				</form>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	
+ 	<div id="delete-location" class="popup">
+ 		<div class="popup__body">
+ 			<div class="popup__content popup__content--delete">
+ 				<form action="#" class="popup__form">
+ 					<div class="popup__form-title">Вы действительно хотите удалить оплату <span>Гланый офис</span> ?</div>
+ 					<div class="popup__form-desc">Данное действие нельзя отменить</div>
+ 	
+ 					<div class="popup__form-buttons popup__form-buttons--change">
+ 						<button type="button" class="popup__form-button popup__form-button--cancel close-popup">Отменить</button>
+ 						<button type="submit" class="popup__form-button popup__form-button--apply">Удалить</button>
+ 					</div>
+ 				</form>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	
+ 	<div id="add" class="popup">
+ 		<div class="popup__body">
+ 			<div class="popup__content popup__content--add">
+ 				<div class="popup__top">
+ 					<div class="popup__top-left">
+ 						<div class="product-card__comment-approved">Пользователь активен</div>
+ 					</div>
+ 					<button type="submit" class="close-popup">
+ 						<img src="img/svg/close.svg" alt="icon" />
+ 					</button>
+ 				</div>
+ 				<form action="#" class="popup__product-card product-card">
+ 					<div class="product-card__item">
+ 						<div class="product-card__subtitle">Редактирование пользователя</div>
+ 						<div class="product-card__grid product-card__grid--2">
+ 							<div class="product-card__group">
+ 								<label for="login" class="product-card__label">Логин</label>
+ 								<input id="login" type="text" class="input product-card__input">
+ 							</div>
+ 							<div class="product-card__group">
+ 								<label for="fio" class="product-card__label">ФИО</label>
+ 								<input id="fio" type="text" class="input product-card__input">
+ 							</div>
+ 							<div class="product-card__group">
+ 								<label for="email" class="product-card__label">Email</label>
+ 								<input id="email" type="email" class="input product-card__input">
+ 							</div>
+ 							<div class="product-card__group">
+ 								<label class="product-card__label">Группа</label>
+ 								<div class="product-card__select">
+ 									<select name="form[]">
+ 										<option value="0" selected="selected" disabled>Выбор</option>
+ 										<option value="1">Пункт №1</option>
+ 										<option value="2">Пункт №2</option>
+ 										<option value="3">Пункт №3</option>
+ 										<option value="4">Пункт №4</option>
+ 									</select>
+ 								</div>
+ 							</div>
+ 							<div class="product-card__group">
+ 								<label for="token" class="product-card__label">AD Token</label>
+ 								<input id="token" type="text" class="input product-card__input">
+ 							</div>
+ 							<div class="product-card__group">
+ 								<a href="#" class="product-card__link">Добавить доп информацию</a>
+ 							</div>
+ 						</div>
+ 					</div>
+ 	
+ 					<div class="product-card__item">
+ 						<div class="popup__form-top">
+ 							<div class="popup__form-title">Категории для показа</div>
+ 							<div class="popup__form-group">
+ 								<input type="text" class="popup__form-input" placeholder="Поиск по категориям">
+ 								<button type="submit" class="popup__form-btn">
+ 									<img src="img/svg/search.svg" alt="icon" />
+ 								</button>
+ 							</div>
+ 						</div>
+ 	
+ 						<div class="popup__form-categories">
+ 							<div class="popup__form-items">
+ 								<div class="popup__form-item">
+ 									<div class="popup__form-abc">А</div>
+ 									<div class="popup__form-checkbox">
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Авточистка</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Аксессуары для дома</i>
+ 										</label>
+ 									</div>
+ 								</div>
+ 	
+ 								<div class="popup__form-item">
+ 									<div class="popup__form-abc">Б</div>
+ 									<div class="popup__form-checkbox">
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Банные принадлежности</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Брынза</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Бумажный офис</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Бытовая техника</i>
+ 										</label>
+ 									</div>
+ 								</div>
+ 	
+ 								<div class="popup__form-item">
+ 									<div class="popup__form-abc">В</div>
+ 									<div class="popup__form-checkbox">
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Вода питьевая</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Восточные сладости, сухофрукты</i>
+ 										</label>
+ 									</div>
+ 								</div>
+ 	
+ 								<div class="popup__form-item">
+ 									<div class="popup__form-abc">Г</div>
+ 									<div class="popup__form-checkbox">
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Готовая еда</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Губки, щетки, салфетки для уборки</i>
+ 										</label>
+ 									</div>
+ 								</div>
+ 	
+ 								<div class="popup__form-item">
+ 									<div class="popup__form-abc">Д</div>
+ 									<div class="popup__form-checkbox">
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Дача, сад, прочая кухня</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Дезодаранты и гели для душа</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Детские товары</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Детское питание</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Домашний декор</i>
+ 										</label>
+ 									</div>
+ 								</div>
+ 	
+ 								<div class="popup__form-item">
+ 									<div class="popup__form-abc">Ж</div>
+ 									<div class="popup__form-checkbox">
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Жевательные резинки</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Зажигалки</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Замороженные полуфабрикаты</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Зонтики</i>
+ 										</label>
+ 									</div>
+ 								</div>
+ 	
+ 								<div class="popup__form-item">
+ 									<div class="popup__form-abc">И</div>
+ 									<div class="popup__form-checkbox">
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Икра</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Йогурты</i>
+ 										</label>
+ 									</div>
+ 								</div>
+ 	
+ 								<div class="popup__form-item">
+ 									<div class="popup__form-abc">К</div>
+ 									<div class="popup__form-checkbox">
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Какао</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Канцелярские товары</i>
+ 										</label>
+ 	
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Картофельные пюро, гарниры</i>
+ 										</label>
+ 	
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Каши, сухие завтраки</i>
+ 										</label>
+ 	
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Кисломолочные продукты</i>
+ 										</label>
+ 	
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Колбасы</i>
+ 										</label>
+ 	
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Компьютерные аксессуары</i>
+ 										</label>
+ 	
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Корейские салаты</i>
+ 										</label>
+ 	
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Кофе</i>
+ 										</label>
+ 	
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Краски для волос</i>
+ 										</label>
+ 	
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Крупы в упаковке и макаронные изделия</i>
+ 										</label>
+ 	
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Кухонный инвентарь</i>
+ 										</label>
+ 									</div>
+ 								</div>
+ 	
+ 								<div class="popup__form-item">
+ 									<div class="popup__form-abc">М</div>
+ 									<div class="popup__form-checkbox">
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Маргарин</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Масла растительные</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Масло</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Мед, джемы и варенья</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Молоко</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Молоко и Молочные напитки</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Молочные десерты</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Молочные консервы</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Морепродукты</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Мороженое</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Мука</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Мучные кондитерские изделия</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Мыло косметическое и мыло жидкое</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Мясные консервы</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Мясо животных</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Мясо птицы</i>
+ 										</label>
+ 									</div>
+ 								</div>
+ 	
+ 								<div class="popup__form-item">
+ 									<div class="popup__form-abc">О</div>
+ 									<div class="popup__form-checkbox">
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Обувь</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Овощи</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Овощные(маринады) и фруктовые консервы</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Организация и хранение документов</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Организация рабочего места</i>
+ 										</label>
+ 									</div>
+ 								</div>
+ 							</div>
+ 	
+ 							<div class="popup__form-items">
+ 								<div class="popup__form-item">
+ 									<div class="popup__form-abc">П</div>
+ 									<div class="popup__form-checkbox">
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Пакеты</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Письменные принадлежности</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Подгузники для взрослых</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Полуфабрикаты быстрого приготовления</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Предметы домашнего обихода</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Предметы домашнего обихода(спички)</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Презервативы</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Прохладительные напитки</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Прочая бакалея</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Прочие замороженные полуфабрикаты</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Прочие снеки</i>
+ 										</label>
+ 									</div>
+ 								</div>
+ 	
+ 								<div class="popup__form-item">
+ 									<div class="popup__form-abc">Р</div>
+ 									<div class="popup__form-checkbox">
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Рыбные консервы</i>
+ 										</label>
+ 									</div>
+ 								</div>
+ 	
+ 								<div class="popup__form-item">
+ 									<div class="popup__form-abc">С</div>
+ 									<div class="popup__form-checkbox">
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Салаты готовые, соленья</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Сахар</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Свежая рыба</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Сигареты</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Сметана</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Соки, нектары</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Соусы</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Специи</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Средства борьбы с насекомыми</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Средства детской гигиены</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Средства для бритья</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Средства для туалета, освежители</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Средства для укладки волос</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Средства для ухода за полостью рта</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Средства женской гигиены</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Средства по уходу за лицом</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Средства по уходу за руками</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Средства по уходу за ногами</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Средства по уходу за телом</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Средства ухода за обувью</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Стиральные порошки и кондиционеры</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Столовая и кухня</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Сулугуни</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Сухарики</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Сухие сливки</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Сушеные морепродукты фасованные</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Сыры</i>
+ 										</label>
+ 									</div>
+ 								</div>
+ 	
+ 								<div class="popup__form-item">
+ 									<div class="popup__form-abc">Т</div>
+ 									<div class="popup__form-checkbox">
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Творожные продукты</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Текстиль</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Товары для диабетиков</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Товары для презентаций</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Товары и корма для животных</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Товары и корма для животных</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Торты и пирожные</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Туалетная бумага, салфетки, полотенца</i>
+ 										</label>
+ 	
+ 									</div>
+ 								</div>
+ 	
+ 								<div class="popup__form-item">
+ 									<div class="popup__form-abc">Ф</div>
+ 									<div class="popup__form-checkbox">
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Фольга, бумага для выпечки</i>
+ 										</label>
+ 									</div>
+ 								</div>
+ 	
+ 								<div class="popup__form-item">
+ 									<div class="popup__form-abc">Х</div>
+ 									<div class="popup__form-checkbox">
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Хлеб</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Хлебопродукты</i>
+ 										</label>
+ 									</div>
+ 								</div>
+ 	
+ 								<div class="popup__form-item">
+ 									<div class="popup__form-abc">Ч</div>
+ 									<div class="popup__form-checkbox">
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Чай</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Чипсы</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Чистящие и моющие средства</i>
+ 										</label>
+ 									</div>
+ 								</div>
+ 	
+ 								<div class="popup__form-item">
+ 									<div class="popup__form-abc">Ш</div>
+ 									<div class="popup__form-checkbox">
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Шампуни и бальзамы</i>
+ 										</label>
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Шоколадно-конфетные изделия</i>
+ 										</label>
+ 									</div>
+ 								</div>
+ 	
+ 								<div class="popup__form-item">
+ 									<div class="popup__form-abc">Э</div>
+ 									<div class="popup__form-checkbox">
+ 										<label class="checkbox">
+ 											<input type="checkbox">
+ 											<span></span>
+ 											<i>Электротовары</i>
+ 										</label>
+ 									</div>
+ 								</div>
+ 							</div>
+ 						</div>
+ 					</div>
+ 	
+ 					<div class="product-card__buttons">
+ 						<button type="button" class="product-card__button product-card__button--delete">Удалить пользователя</button>
+ 						<button type="button" class="product-card__button product-card__button--disable">Отключить
+ 							пользователя</button>
+ 					</div>
+ 				</form>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	
+ 	<div id="organization" class="popup">
+ 		<div class="popup__body">
+ 			<div class="popup__content popup__content--organization">
+ 				<form action="#" class="popup__form">
+ 					<div class="popup__form-title">Назначение места встречи</div>
+ 					<div class="popup__form-desc">
+ 						Укажите желаемое место встречи и в комментариях впишите необходимые данные. К примеру, если встреча онлайн,
+ 						можете вписать туда ссылку на конференцию
+ 					</div>
+ 	
+ 					<div class="popup__form-flex">
+ 						<div class="product-card__group">
+ 							<div class="product-card__switch">
+ 								<label class="product-card__switch-label">
+ 									<input type="checkbox">
+ 									<span class="product-card__switch-slider product-card__switch-round"></span>
+ 								</label>
+ 								<label for="send" class="product-card__label">Отправить место встречи</label>
+ 							</div>
+ 							<div class="product-card__select">
+ 								<select name="form[]">
+ 									<option value="0" selected="selected" disabled>Выбор</option>
+ 									<option value="1">Онлайн встреча</option>
+ 									<option value="2">Онлайн встреча</option>
+ 									<option value="3">Онлайн встреча</option>
+ 									<option value="4">Онлайн встреча</option>
+ 								</select>
+ 							</div>
+ 						</div>
+ 						<div class="product-card__group">
+ 							<label for="com" class="product-card__label">Комментарий к месту встречи</label>
+ 							<input id="com" type="text" class="input product-card__input">
+ 							<button type="button" class="product-card__copy">
+ 								<img src="img/svg/copy-2.svg" alt="icon" />
+ 							</button>
+ 						</div>
+ 					</div>
+ 	
+ 					<div class="popup__form-buttons popup__form-buttons--change">
+ 						<button type="button" class="popup__form-button popup__form-button--cancel close-popup">Отменить</button>
+ 						<button type="submit" class="popup__form-button popup__form-button--appoint">Назначить</button>
+ 					</div>
+ 				</form>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	
+ 	<div id="request-next" class="popup">
+ 		<div class="popup__body">
+ 			<div class="popup__content popup__content--request">
+ 				<div class="popup__top">
+ 					<div class="popup__top-left">
+ 						<div class="popup__top-text">Заявка от 14 янв 2022 14:45</div>
+ 						<div class="popup__top-status">В обработке</div>
+ 					</div>
+ 					<button type="submit" class="close-popup">
+ 						<img src="img/svg/close.svg" alt="icon" />
+ 					</button>
+ 				</div>
+ 				<form action="#" class="popup__product-card product-card product-card--2">
+ 					<div class="product-card__left">
+ 						<div class="product-card__item">
+ 							<div class="product-card__subtitle">Карточка организации</div>
+ 							<div class="product-card__grid product-card__grid--3">
+ 								<div class="product-card__group product-card__group--company">
+ 									<label for="org" class="product-card__label">Наименование организации</label>
+ 									<input id="org" type="text" class="input product-card__input">
+ 								</div>
+ 								<div class="product-card__group">
+ 									<label for="con" class="product-card__label">Контактное лицо</label>
+ 									<input id="con" type="text" class="input product-card__input w-210">
+ 								</div>
+ 								<div class="product-card__group">
+ 									<label for="inn" class="product-card__label">ИНН</label>
+ 									<input id="inn" type="text" class="input product-card__input w-180">
+ 								</div>
+ 								<div class="product-card__group">
+ 									<label class="product-card__label">Гувохнома</label>
+ 									<div class="product-card__holder">
+ 										<a href="#" class="product-card__look">Посмотреть</a>
+ 										<a href="#" class="product-card__download">Скачать</a>
+ 									</div>
+ 								</div>
+ 								<div class="product-card__group">
+ 									<label for="email" class="product-card__label">Email</label>
+ 									<input id="email" type="email" class="input product-card__input w-210">
+ 								</div>
+ 								<div class="product-card__group">
+ 									<label for="tel" class="product-card__label">Номер телефона</label>
+ 									<input id="tel" type="tel" class="input product-card__input w-180">
+ 								</div>
+ 							</div>
+ 						</div>
+ 	
+ 						<div class="product-card__item">
+ 							<div class="product-card__flex">
+ 								<div class="product-card__col">
+ 									<a class="product-card__img" data-fancybox="product-card" href="img/image-1.png">
+ 										<img src="img/image-1.png" alt="image" />
+ 									</a>
+ 									<div class="product-card__tools">
+ 										<a href="img/image-1.png" data-fancybox="product-card-zoom">
+ 											<img src="img/svg/zoom.svg" alt="icon" />
+ 										</a>
+ 										<a href="#">
+ 											<img src="img/svg/download.svg" alt="icon" />
+ 										</a>
+ 										<a href="#">
+ 											<img src="img/svg/share.svg" alt="icon" />
+ 										</a>
+ 									</div>
+ 								</div>
+ 	
+ 								<div class="product-card__col">
+ 									<div class="product-card__subtitle">Сведения о товаре</div>
+ 									<div class="product-card__grid product-card__grid--2">
+ 										<div class="product-card__group">
+ 											<label class="product-card__label">Категория товара</label>
+ 											<div class="product-card__select">
+ 												<select name="form[]" class="w-210">
+ 													<option value="0" selected="selected" disabled>Выбор</option>
+ 													<option value="1">Пункт №1</option>
+ 													<option value="2">Пункт №2</option>
+ 													<option value="3">Пункт №3</option>
+ 													<option value="4">Пункт №4</option>
+ 												</select>
+ 											</div>
+ 										</div>
+ 										<div class="product-card__group">
+ 											<label for="pr" class="product-card__label">Наименование товара</label>
+ 											<input id="pr" type="text" class="input product-card__input w-210">
+ 										</div>
+ 										<div class="product-card__group">
+ 											<label for="brand" class="product-card__label">Бренд</label>
+ 											<input id="brand" type="text" class="input product-card__input w-210">
+ 										</div>
+ 										<div class="product-card__group">
+ 											<label for="gr" class="product-card__label">Граммаж</label>
+ 											<input id="gr" type="text" class="input product-card__input w-210">
+ 										</div>
+ 										<div class="product-card__group">
+ 											<label for="price" class="product-card__label">Цена товара</label>
+ 											<div class="product-card__piece">
+ 												<input id="price" type="text" class="input product-card__input">
+ 												<p>сум за шт</p>
+ 											</div>
+ 										</div>
+ 										<div class="product-card__group">
+ 											<label class="product-card__label">Начало производства</label>
+ 											<a href="#" class="product-card__calendar">
+ 												<span>Февраль 2022</span>
+ 											</a>
+ 										</div>
+ 									</div>
+ 								</div>
+ 							</div>
+ 	
+ 							<div class="product-card__inner">
+ 								<div class="product-card__subtitle">Дополнительная информация</div>
+ 								<div class="product-card__grid product-card__grid--4">
+ 									<div class="product-card__group product-card__group--market">
+ 										<label for="mar" class="product-card__label">Доля рынка</label>
+ 										<input id="mar" type="text" class="input product-card__input w-125">
+ 									</div>
+ 									<div class="product-card__group">
+ 										<label for="barcode" class="product-card__label">Штрих-код</label>
+ 										<input id="barcode" type="text" class="input product-card__input w-180">
+ 									</div>
+ 									<div class="product-card__group">
+ 										<label class="product-card__label">Документы</label>
+ 										<p class="product-card__info">Отсуствуют</p>
+ 									</div>
+ 									<div class="product-card__group">
+ 										<label class="product-card__label">Кп</label>
+ 										<p class="product-card__info">Не является</p>
+ 									</div>
+ 								</div>
+ 							</div>
+ 	
+ 							<div class="product-card__inner">
+ 								<div class="product-card__subtitle">География</div>
+ 								<div class="product-card__grid product-card__grid--2">
+ 									<div class="product-card__group">
+ 										<label class="product-card__label">Регионы, в которых представлен товар</label>
+ 										<!-- <div class="product-card__geography">
+ 											Ташкент,
+ 										</div> -->
+ 									</div>
+ 									<div class="product-card__group">
+ 										<label for="barcode" class="product-card__label">Где представлены торговые точки</label>
+ 									</div>
+ 								</div>
+ 							</div>
+ 	
+ 							<div class="product-card__inner">
+ 								<div class="product-card__subtitle">Поставки</div>
+ 								<div class="product-card__grid product-card__grid--2">
+ 									<div class="product-card__group">
+ 										<label class="product-card__label">Условия оплаты</label>
+ 										<div class="product-card__select">
+ 											<select name="form[]">
+ 												<option value="0" selected="selected" disabled>Выбор</option>
+ 												<option value="1">Пункт №1</option>
+ 												<option value="2">Пункт №2</option>
+ 												<option value="3">Пункт №3</option>
+ 												<option value="4">Пункт №4</option>
+ 											</select>
+ 										</div>
+ 									</div>
+ 									<div class="product-card__group">
+ 										<label class="product-card__label">Условия поставки</label>
+ 										<div class="product-card__select">
+ 											<select name="form[]">
+ 												<option value="0" selected="selected" disabled>Выбор</option>
+ 												<option value="1">Пункт №1</option>
+ 												<option value="2">Пункт №2</option>
+ 												<option value="3">Пункт №3</option>
+ 												<option value="4">Пункт №4</option>
+ 											</select>
+ 										</div>
+ 									</div>
+ 									<div class="product-card__group product-card__group--notes">
+ 										<label class="product-card__label">Особые примечания</label>
+ 										<p class="product-card__text">
+ 											Здравствуйте, наша компания занимается поставками капсульного кофе. Мы хотели бы продавать наши
+ 											капсулы через ваши супермаркеты. Поначалу хотели бы разместить капсульное кофе неспрессо формата
+ 											IlCaffeItaliano итальянского производства
+ 										</p>
+ 									</div>
+ 								</div>
+ 							</div>
+ 						</div>
+ 					</div>
+ 					<div class="product-card__right">
+ 						<div class="product-card__sticky">
+ 							<div class="product-card__item product-card__item-next">
+ 								<div class="product-card__subtitle">Комментарии</div>
+ 	
+ 								<div class="product-card__comments">
+ 									<div class="product-card__comment">
+ 										<div class="product-card__comment-name">Пользователь</div>
+ 										<div class="product-card__comment-category">Заявка создана</div>
+ 										<div class="product-card__comment-date">1 д. 3 час. 19 мин. назад</div>
+ 									</div>
+ 									<div class="product-card__comment">
+ 										<div class="product-card__comment-name">n.ganiyev</div>
+ 										<div class="product-card__comment-category">
+ 											Категория изменена:
+ 											<p>Кофе → Полуфабрикаты</p>
+ 										</div>
+ 										<div class="product-card__comment-date">1 д. 3 час. 19 мин. назад</div>
+ 									</div>
+ 									<div class="product-card__comment">
+ 										<div class="product-card__comment-name">Низамов Камолиддин</div>
+ 										<div class="product-card__comment-approved">Одобрена</div>
+ 										<div class="product-card__comment-text">ЗАЯВКА ПОЛНОСТЬЮ ОДОБРЕНА ОЖИДАЕТСЯ НАЗНАЧЕНИЕ ВСТРЕЧИ</div>
+ 										<div class="product-card__comment-date">1 д. 3 час. 19 мин. назад</div>
+ 									</div>
+ 	
+ 									<div class="product-card__comment product-card__comment--answer">
+ 										<div class="product-card__comment-name">Ресепшн</div>
+ 										<div class="product-card__comment-category">Рассмотрим предложение.</div>
+ 										<div class="product-card__comment-date">1 д. 3 час. 19 мин. назад</div>
+ 									</div>
+ 								</div>
+ 	
+ 								<div class="product-card__date">
+ 									<div class="product-card__select">
+ 										<select name="form[]">
+ 											<option value="1">1</option>
+ 											<option value="2">2</option>
+ 											<option value="3">3</option>
+ 											<option value="4">4</option>
+ 										</select>
+ 									</div>
+ 									<div class="product-card__select">
+ 										<select name="form[]">
+ 											<option value="1">Январь</option>
+ 											<option value="2">Февраль</option>
+ 											<option value="3">Март</option>
+ 											<option value="4">Апрель</option>
+ 										</select>
+ 									</div>
+ 									<div class="product-card__select">
+ 										<select name="form[]">
+ 											<option value="1">2000</option>
+ 											<option value="2">2001</option>
+ 											<option value="3">2002</option>
+ 											<option value="4">2003</option>
+ 										</select>
+ 									</div>
+ 									<div class="product-card__time">
+ 										<label for="time" class="product-card__time-label">Время</label>
+ 										<input id="time" type="time" class="input product-card__input">
+ 									</div>
+ 								</div>
+ 							</div>
+ 	
+ 	
+ 							<div class="product-card__directions">
+ 								<a href="#organization" class="product-card__direction product-card__direction--meetings popup-link">
+ 									Назначить место встречи
+ 								</a>
+ 								<a href="meet.html" class="product-card__direction product-card__direction--timetable">
+ 									Посмотреть расписание
+ 								</a>
+ 							</div>
+ 	
+ 							<div class="product-card__buttons">
+ 								<button type="submit" class="product-card__button product-card__button--transparent">Одобрить</button>
+ 								<button type="button" class="product-card__button product-card__button--transparent">Отказать</button>
+ 							</div>
+ 						</div>
+ 					</div>
+ 				</form>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	
+ 	
+ 	<div id="appointment" class="popup">
+ 		<div class="popup__body">
+ 			<div class="popup__content popup__content--organization">
+ 				<form action="#" class="popup__form">
+ 					<div class="popup__form-title">Назначение места встречи</div>
+ 					<div class="popup__form-desc">
+ 						Укажите желаемое место встречи и в комментариях впишите необходимые данные. К примеру, если встреча онлайн,
+ 						можете вписать туда ссылку на конференцию
+ 					</div>
+ 	
+ 					<div class="popup__form-grid">
+ 						<div class="product-card__box">
+ 							<div class="product-card__group product-card__group--calendar">
+ 								<label for="calend" class="product-card__label">Дата и время</label>
+ 								<input id="calend" type="text" class="input product-card__input">
+ 							</div>
+ 							<div class="product-card__group">
+ 								<label for="time" class="product-card__label">Время</label>
+ 								<input id="time" type="time" class="input product-card__input">
+ 							</div>
+ 						</div>
+ 						<div class="product-card__group">
+ 							<label for="memb" class="product-card__label">Участники</label>
+ 							<input id="memb" type="text" class="input product-card__input">
+ 						</div>
+ 						<div class="product-card__group">
+ 							<div class="product-card__switch">
+ 								<label class="product-card__switch-label">
+ 									<input type="checkbox">
+ 									<span class="product-card__switch-slider product-card__switch-round"></span>
+ 								</label>
+ 								<label for="send" class="product-card__label">Отправить место встречи</label>
+ 							</div>
+ 							<div class="product-card__select">
+ 								<select name="form[]">
+ 									<option value="0" selected="selected" disabled>Выбор</option>
+ 									<option value="1">Онлайн встреча</option>
+ 									<option value="2">Онлайн встреча</option>
+ 									<option value="3">Онлайн встреча</option>
+ 									<option value="4">Онлайн встреча</option>
+ 								</select>
+ 							</div>
+ 						</div>
+ 						<div class="product-card__group">
+ 							<label for="com" class="product-card__label">Комментарий к месту встречи</label>
+ 							<input id="com" type="text" class="input product-card__input">
+ 							<button type="button" class="product-card__copy">
+ 								<img src="img/svg/copy-2.svg" alt="icon" />
+ 							</button>
+ 						</div>
+ 					</div>
+ 	
+ 					<div class="product-card__group product-card__group--request">
+ 						<label for="send" class="product-card__label">Заявка</label>
+ 						<div class="product-card__select">
+ 							<select name="form[]">
+ 								<option value="0" selected="selected" disabled>Выбор</option>
+ 								<option value="1">"OQ YO'L FARM PLUS" Mchj, Кубаночка Сахары</option>
+ 								<option value="2">"OQ YO'L FARM PLUS" Mchj, Кубаночка Сахары</option>
+ 								<option value="3">"OQ YO'L FARM PLUS" Mchj, Кубаночка Сахары</option>
+ 								<option value="4">"OQ YO'L FARM PLUS" Mchj, Кубаночка Сахары</option>
+ 							</select>
+ 						</div>
+ 					</div>
+ 	
+ 					<div class="popup__form-buttons popup__form-buttons--change">
+ 						<button type="button" class="popup__form-button popup__form-button--cancel close-popup">Отменить</button>
+ 						<button type="submit" class="popup__form-button popup__form-button--appoint">Назначить</button>
+ 					</div>
+ 				</form>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	
+ 	<div id="geo-add" class="popup">
+ 		<div class="popup__body">
+ 			<div class="popup__content">
+ 				<form action="#" class="popup__form">
+ 					<div class="popup__form-top">
+ 						<div class="popup__form-title">География продаж</div>
+ 						<div class="popup__form-group">
+ 							<input type="text" class="popup__form-input" placeholder="Поиск по городам">
+ 							<button type="submit" class="popup__form-btn">
+ 								<img src="img/svg/search.svg" alt="icon" />
+ 							</button>
+ 						</div>
+ 					</div>
+ 	
+ 					<div class="popup__form-categories">
+ 						<div class="popup__form-items">
+ 							<div class="popup__form-item">
+ 								<div class="popup__form-abc">Города</div>
+ 								<div class="popup__form-checkbox">
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Авточистка</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Аксессуары для дома</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Банные принадлежности</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Брынза</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Бумажный офис</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Бытовая техника</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Вода питьевая</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Восточные сладости, сухофрукты</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Готовая еда</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Губки, щетки, салфетки для уборки</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Дача, сад, прочая кухня</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Дезодаранты и гели для душа</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Детские товары</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Детское питание</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Домашний декор</i>
+ 									</label>
+ 								</div>
+ 							</div>
+ 						</div>
+ 						<div class="popup__form-items">
+ 							<div class="popup__form-item">
+ 								<div class="popup__form-abc">Где представлены</div>
+ 								<div class="popup__form-checkbox">
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Базары</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Магазины</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Банные принадлежности</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Брынза</i>
+ 									</label>
+ 									<label class="checkbox">
+ 										<input type="checkbox">
+ 										<span></span>
+ 										<i>Бумажный офис</i>
+ 									</label>
+ 								</div>
+ 							</div>
+ 						</div>
+ 					</div>
+ 					<div class="popup__form-buttons">
+ 						<button type="reset" class="popup__form-button popup__form-button--reset">Сбросить фильтр</button>
+ 						<button type="submit" class="popup__form-button popup__form-button--apply">Применить фильтр</button>
+ 					</div>
+ 				</form>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	
+ 	<div id="disclaimer" class="popup">
+ 		<div class="popup__body">
+ 			<div class="popup__content popup__content--edit">
+ 				<form action="#" class="popup__form">
+ 					<div class="popup__form-title">Комментарий отказа</div>
+ 					<div class="popup__form-desc">
+ 						Для отказа необходимо вписать комментарий с описанием причины или выбрать один из шаблонных. Данный
+ 						комментарий будет присвоен к отказам по всем выделенным заявкам
+ 					</div>
+ 	
+ 					<div class="popup__form-edit">
+ 						<div class="product-card__answers-radios">
+ 							<label class="product-card__answers-radio">
+ 								<input type="radio" name="answers">
+ 								<span>Надо подумать</span>
+ 							</label>
+ 							<label class="product-card__answers-radio">
+ 								<input type="radio" name="answers">
+ 								<span>Передам менеджеру</span>
+ 							</label>
+ 							<label class="product-card__answers-radio">
+ 								<input type="radio" name="answers">
+ 								<span>Заявка принята</span>
+ 							</label>
+ 							<label class="product-card__answers-radio">
+ 								<input type="radio" name="answers">
+ 								<span>Отказ в приеме</span>
+ 							</label>
+ 						</div>
+ 						<div class="popup__form-comments">
+ 							<textarea placeholder="Впишите текст комментария..." minlength="10" maxlength="140"></textarea>
+ 							<p>от 10 до 140 символов</p>
+ 						</div>
+ 					</div>
+ 	
+ 					<div class="popup__form-buttons popup__form-buttons--change">
+ 						<button type="button" class="popup__form-button popup__form-button--cancel close-popup">Отменить</button>
+ 						<button type="submit" class="popup__form-button popup__form-button--apply">Сохранить</button>
+ 					</div>
+ 				</form>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	<script src="js/main.min.js"></script>
+ </body>
+
+ </html>
